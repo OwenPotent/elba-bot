@@ -1,19 +1,19 @@
 {
-  "name": "evobot",
-  "version": "2.9.0",
-  "description": "Discord music bot built with discord.js",
+  "name": "elba",
+  "version": "3.0.0",
+  "description": "Discord music bot built with discord.js (Modified by OwenBellowen)",
   "main": "index.ts",
-  "author": "Erit Islami <eritislami@gmail.com>",
+  "author": "Owen <sheanowen3@gmail.com>",
   "private": true,
-  "homepage": "https://github.com/eritislami/evobot",
-  "repository": "github:eritislami/evobot",
-  "bugs": "https://github.com/eritislami/evobot/issues",
+  "homepage": "https://github.com/OwenPotent/elba-bot",
+  "repository": "github:OwenPotent/elba-bot",
+  "bugs": "https://github.com/OwenPotent/elba-bot/issues",
   "engines": {
     "node": ">=16.11.0"
   },
   "scripts": {
     "dev": "nodemon index.ts",
-    "start": "ts-node index.ts",
+    "start": "bun index.ts",
     "build": "tsc --build",
     "prod": "npm run build && node ./dist/index.js",
     "commit": "cz",
@@ -33,10 +33,10 @@
     "youtube-sr": "~4.3.0"
   },
   "devDependencies": {
-    "@types/i18n": "^0.13.11",
+    "@types/i18n": "^0.13.12",
     "@types/node": "^20.12.7",
-    "cz-conventional-changelog": "^3.0.1",
-    "nodemon": "^2.0.22",
+    "cz-conventional-changelog": "^3.3.0",
+    "nodemon": "^3.1.0",
     "prettier": "^3.2.5",
     "ts-node": "^10.9.2"
   },
@@ -44,7 +44,7 @@
     "@discordjs/opus": "^0.9.0",
     "libsodium-wrappers": "^0.7.13",
     "opusscript": "^0.1.1",
-    "sodium-native": "^3.4.1",
+    "sodium-native": "^4.1.1",
     "tweetnacl": "^1.0.3"
   },
   "config": {
